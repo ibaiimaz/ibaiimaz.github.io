@@ -1,0 +1,18 @@
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+# - title: CV
+#   url: https://ibaiimaz.github.io/online-cv
+- title: Postak
+  url: /posts/
+- title: Kategoriak
+  url: /categories/
+- title: Etiketak
+  url: /tags/
+# - title: Recipes
+#   url: /recipes/
+- title: Bilaketa
+  url: /search/
+# - title: External Page
+#   url: https://the-page.com/you-want-to-link-to.html
