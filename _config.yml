@@ -17,7 +17,7 @@
 remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: es-EU
-title: "Ibai Imaz Bloga"
+title: "Kode kaierra"
 description: "Software garapenaren inguruko hausnarketak"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://ibaiimaz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
