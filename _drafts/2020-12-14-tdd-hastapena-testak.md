@@ -3,7 +3,6 @@ layout: post
 title: "TDD hastapena: Testak"
 categories:
   - TDD
-  - Hastapena
 tags:
   - TDD
   - Test
@@ -55,3 +54,11 @@ Integrazio testek kode unitate bat baino gehiagok elkarren artean behar bezela f
 *E2E (End to End)* edo onarpen testek, software guztia hasieratik amaierara balioztatzen dute, kanpoko interfazeekin integratzearekin batera. Muturretik muturrerako (E2E) testen helburua software osoa probatzea da, bai menpekotasunentzako, bai datuen integritaterako, bai beste sistema, interfaze eta datu-baseekiko komunikaziorako, produkziokoa bezelako eszenario bat birsortuz.
 
 Onarpen test ere esaten zaie funtzionalitate bat bere osotasunean, hau da ziklo osoa, frogatzen dutelako, produkzioko egoera batean gertatuko litzatekeen moduan.
+
+### TESTEN PIRAMIDEA
+
+
+<figure class="align-center">
+  <a href="#"><img src="{{ '/images/test-pyramid.jpg' | absolute_url }}" alt=""></a>
+  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+</figure>
