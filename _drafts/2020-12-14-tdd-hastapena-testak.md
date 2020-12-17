@@ -60,5 +60,5 @@ Onarpen test ere esaten zaie funtzionalitate bat bere osotasunean, hau da ziklo 
 
 <figure class="align-center">
   <a href="#"><img src="{{ '/images/test-pyramid.jpg' | absolute_url }}" alt=""></a>
-  <figcaption>Look at 580 x 300 <a href="#">getting some</a> love.</figcaption>
+  <figcaption><a href="https://en.wikipedia.org/wiki/Mike_Cohn">Mike Cohn</a>-en Testen Piramidea.</figcaption>
 </figure>
