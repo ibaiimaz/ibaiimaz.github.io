@@ -9,10 +9,10 @@
 
 /* Colors */
 $base-color: #000 !default;
-$text-color: #273238 !default;
-$accent-color: #34374C !default;
+$text-color: #473724 !default;
+$accent-color: #02516c !default;
 $nav-color: #fff !default;
-$background-color: #fff !default;
+$background-color: #faf4e7 !default;
 $nav-background-color: #000 !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
@@ -24,8 +24,8 @@ $danger-color: #ee5f5b !default;
 $info-color: #52adc8 !default;
 
 /* Syntax highlighting (base16) colors */
-$base00: #fafafa !default;
-$base01: #073642 !default;
+$base00: #f7eedd !default;
+$base01: #010202 !default;
 $base02: #586e75 !default;
 $base03: #657b83 !default;
 $base04: #839496 !default;

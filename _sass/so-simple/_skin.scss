@@ -32,18 +32,18 @@ blockquote {
 }
 
 .copyright {
-  color: lighten($text-color, 25%);
+  color: lighten($text-color, 15%);
   a {
-    color: lighten($text-color, 25%);
+    color: lighten($text-color, 15%);
   }
 }
 
 .taxonomy-title {
-  color: lighten($text-color, 60%);
+  color: lighten($text-color, 40%);
 }
 
 .taxonomy-count {
-  color: lighten($text-color, 50%);
+  color: lighten($text-color, 30%);
 }
 
 .taxonomy-index {
@@ -63,7 +63,7 @@ blockquote {
 }
 
 .back-to-top {
-  color: lighten($text-color, 50%);
+  color: lighten($text-color, 25%);
 }
 
 .site-nav {
