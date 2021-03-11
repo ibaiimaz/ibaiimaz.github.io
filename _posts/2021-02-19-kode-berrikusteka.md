@@ -246,7 +246,7 @@ private int getEnergyCertificatePrice(int finalCalculation) {
     // code omitted for brevity
 ```
 
-Nun aldagai bat parametro moduan pasatzen ari garen, bere balorea modifikatu eta berau itzultzeko. Aldrebes xamarra dirudi. Baina orain egiten ari garena ez da askoz hobea.
+Nun aldagai bat parametro moduan pasatzen ari garen, bere balorea modifikatu eta berau itzultzeko. Aldrebes xamarra da. Baina orain egiten ari garena ez da askoz hobea.
 
 ```java
 public int totalPrice() {
@@ -259,7 +259,7 @@ public int totalPrice() {
     // code omitted for brevity
 ```
 
-Azken finean, `finalCalculation` aldagaiaren balioa adatzen ari gara berdin berdin. Funtzioak modu honetara birfaktorizatu izanak ordea ondorengoa egitea ahalbidetzen digu.
+Azken finean, `finalCalculation` aldagaiaren balioa aldatzen ari gara denbora guztian. Funtzioak modu honetara birfaktorizatu izanak ordea ondorengoa egitea ahalbidetzen digu.
 
 ```java
 public int totalPrice() {
