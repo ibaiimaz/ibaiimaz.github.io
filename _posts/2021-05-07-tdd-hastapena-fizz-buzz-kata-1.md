@@ -8,9 +8,10 @@ tags:
   - Test
   - Kata
   - Programazioa
+  - Mocha
 ---
 
-TDD hastapenen inguruko post-multzoari nolabaiteko amaiera emateko, Kode kata bat egin nahi nuen, eta mekanika ahalik eta hobekien erakusteko bideo bat grabatzeko asmoa neukan, Live Coding moduko bat eginez. Baina denbora aurrera doa eta bideoak egin gabe jarraitzen du. Bideoa nola grabatu, soinuaren kalitatea, ondorengo edizioa, beharrezko denbora aurkitzeko arazoa... oztopo gehiegi, beraz erabaki dut beti bezela idatziz egitea, eta bideoan erakutsi nahi nituen zenbait atal, irudi bidez erakustea.
+TDD hastapenen inguruko post-multzoari nolabaiteko amaiera emateko, Kode kata bat egin nahi nuen eta mekanika ahalik eta hobekien erakusteko bideo bat grabatzeko asmoa neukan, Live Coding moduko bat. Baina denbora aurrera doa eta bideoak egin gabe jarraitzen du. Bideoa nola grabatu, soinuaren kalitatea, ondorengo edizioa, beharrezko denbora aurkitzeko arazoa... oztopo gehiegi, beraz erabaki dut beti bezela idatziz egitea, eta bideoan erakutsi nahi nituen zenbait atal, irudi bidez erakustea.
 
 Post-multzo honen aurreko atalak hemen aurki ditzakezu:
 - [TDD hastapena: Testak](/tdd-hastapena-testak/)
@@ -402,4 +403,4 @@ Honekin, hasieran aipatutako lehen zatia bukaturik egongo litzateke, hau da, edo
 
 Gehiegi ez luzatzeko, bigarren zatia, hau da, 1 eta 100 arteko zenbakiak *parse*aturik itzultzea, bigarren atal baterako utziko dugu.
 
-Bide batez esan beste beste post batean kodea zati honen gainean egingo nukeen brifaktorizazio txiki bat azalduko dudala.
+Bide batez esan hurrengo post batean, kodea zati honen gainean egingo nukeen brifaktorizazio txiki baten inguruan hitz egingo duala.
