@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "FizzBuzz kataren \"currying\" birfaktorizazioa"
+title: "FizzBuzz kata \"currying\" birfaktorizazioa"
 categories:
-  - TDD
+  - Birfaktorizazioa
 tags:
   - TDD
   - Test
   - Kata
   - Programazioa
-  - Mocha
+  - Currying
 ---
 
 TDD hastapenen inguruko post-multzoko aurreko atalean *Fizz Buzz* kataren lehen zati bat burutu genuen. Gaurkoan, kode horren gainean birfaktorizazio txiki bat burutuko dugu *Currying* edo *curry*fikazio teknika erabiliz.
-
-{% include toc %}
 
 Aipatutako atala [hemen](/tdd-hastapena-fizz-buzz-kata-1) daukazue ikusgai baina laburpen moduan, *parse* funtzio bat sortu genuen zenbaki bat jasotzen duena eta ondokoa itzultzen duena: 3ren multiploa bada *Fizz*, 5en multiploa bada *Buzz*, 3 eta 5en multiploa bada *FizzBuzz* eta bestela, jasotako zenbakia bera.
 
