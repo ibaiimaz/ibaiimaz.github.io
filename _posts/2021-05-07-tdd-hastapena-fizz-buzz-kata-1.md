@@ -24,7 +24,7 @@ Izenburuan irakur daitekeen moduan, gaurkoan kode kata bat egingo dugu, *FizzBuz
 
 Egia da katak honek, nire buruan behintzat, bi atal bezela dauzkala, eta horietako bat da bereziki aproposa iruditzen zaidana hasierako kata moduan. Izan ere, zenbait tokitan, katak soilik atal hori izango balu bezela egiten dute. Besterik gabe, ikus dezagun kataren enuntziatua eta pixkanaka aztertuz joango gara.
 
-# Kataren enuntziatua
+# KATAREN ENUNTZIATUA
 
 [Hemen](https://codingdojo.org/kata/FizzBuzz/) aurkitu daiteke kataren enuntziatu originala, baina laburbilduz honakoa dio.
 
@@ -35,10 +35,10 @@ Egia da katak honek, nire buruan behintzat, bi atal bezela dauzkala, eta horieta
 > Idatzi beraz programa bat 1etik 100 arteko zenbaki guztiak itzultzen dituena baina 3ren multiploen kasuan "Fizz" itzuliko duena, 5en multiploen kasuan "Buzz" itzuliko duena eta 3 eta 5en multiploen kasuan "FizzBuzz" itzuliko duela.
 >
 
-## Irteera adibidea
+## IRTEERA ADIBIDEA
 > 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz ... etab 100 arte
 
-## Enuntziatu laburbildua
+## ENUNTZIATU LABURBILDUA
 
 > Idatzi programa bat 1 eta 100 arteko zenbakiak itzuliko dituena baina ondorengo baldintzak betez:
 > 
@@ -51,7 +51,7 @@ Hau da beraz egingo dugun kataren enuntziatua eta kata honetan, aurrerago esan b
 
 Baina hau kata bat da eta katak TDD erabiliz egiten dira beraz, aurrena test bat idatzi beharko genuke.
 
-# Ohartarazpena
+# OHARTARAZPENA
 
 Kodearekin hasi aurretik aipatu nik JavaScript erabiliko dudala eta JavaScripten beharrezkoa ez den arren klaseak erabiliko ditudala, adibidea klaseak nahitaez erabili behar dituzten beste lengoaia askoren antzekoago gera dadin. Bestalde, test liburutegi bezela *Mocha* erabiliko dut, *Chai*-rekin konbinaturik asertzioetarako. Bide batez aipatu, abiapuntu moduan erabiliko dudan proiektua nire [Github](https://github.com/ibaiimaz/js-mocha-abiapuntua) kontuan daukazuela eskuragarri.
 
@@ -69,7 +69,7 @@ Lehenik eta behin, frogazko test eta inplementazioa fitxategiak ezabatuko ditugu
   <a href="#"><img src="{{ '/images/fizzbuzz/initial-files.png' | absolute_url }}" alt=""></a>
 </figure>
 
-# Kataren inplementazioa
+# KATAREN INPLEMENTAZIOA
 
 Test fitxategi berri bat sortuko dugu. Aurrerago esan bezela, aurrena zenbaki bat eman eta aipatutako baldintzen arabera zenbakia bera, "Fizz", "Buzz" edo "FizzBuzz" itzuliko duen funtzio bat idatzi nahi dugu, horretarako *FizzBuzzer* deituko diodan klase bat sortuz, beraz, gure test fitxategia `FizzBuzzer.test.js` deituko da.
 
