@@ -107,9 +107,9 @@ class FizzBuzzer {
 }
 ```
 
-Funtzio bat sortu dugu zeinari zenbakia eta zatitzailea pasatzen dizkiogun eta hondarra zero den ala ez esaten digun. Kodea askoz hobe dago horrela, baina funtzioaren lehen parametroa, *number* alegia, erredundante samarra da. Kasu guztietan zatitzailea zenbaki berarekin aplikatu nahi dugu. Eta ez hori bakarrik, semantikoki ere irakurtzeko garaian ez da ahalko lukeen bezain "elegante" gelditzen.
+Funtzio bat sortu dugu zeinari zenbakia eta zatitzailea pasatzen dizkiogun eta hondarra zero den ala ez esaten digun. Kodea askoz hobe dago horrela, baina funtzioaren lehen parametroa, `number` alegia, erredundante samarra da. Kasu guztietan zatitzailea zenbaki berarekin aplikatu nahi dugu. Eta ez hori bakarrik, semantikoki ere irakurtzeko garaian ez da ahalko lukeen bezain "elegante" gelditzen.
 
-Askoz naturalago irakurriko litzateke funztioak soilik zatitzailea jasoko balu eta honela *divisibleBy* horrek zatitzaileari egingo balio erreferentzia.
+Askoz naturalago irakurriko litzateke funztioak soilik zatitzailea jasoko balu eta honela `numberDivisibleBy` horrek zatitzaileari egingo balio erreferentzia.
 
 Bada JavaScriptek (eta beste lengoaia funtzional batzuk, edo denek beharbada) badauka gauza bat *Curry*fikazioa edo *Currying* esaten zaiona. *Currying*-a, parametro bat baino gehiago jasotzen duen funtzio bat hartu eta hau parametroak banan bana jasoko dituen beste batean bilakatzean datza.
 
@@ -130,7 +130,7 @@ const sumResult = sumToOne(4);
 
 ```
 
-Ikusten baduzue, hori lortzeko egin duguna da parametro bakoitzagatik funtzio bat sortu parametro bat jasotzen duena eta beste funtzio bat itzultzen duena. Beste funtzio honek hurrengo parametroa jasoko du. Azken funtzioak (kasu honetan bi soilik dira) hasierako kodea exekutatuko du.
+Ikusten baduzue, hori lortzeko egin duguna da parametro bakoitzagatik funtzio bat sortu parametro bat jasoko duena eta beste funtzio bat itzultzen duena. Beste funtzio honek hurrengo parametroa jasoko du. Azken funtzioak (kasu honetan bi soilik dira) hasierako kodea exekutatuko du.
 
 Hau guk egin ordez, *lodash* bezelako liburutegi bat erabiliz egin genezake. Honek *curry* funtzio bat dauka zeinari gure hasierako funtzioa pasatzen badiogu, objektu bat itzuliko digun parametroak banan bana jaso ditzakena. Hau egitearen abantaila nagusiena honakoa da. *Currying* bidez deitu nahi dugun funtzioa gure kodean toki gehiagotan erabiltzen bada, arazoak eduki genitzazke berau deitzeko modua aldatuz gero. *Lodash*eko *curry* funtzioa erabilita, funtzio originala ez genuke aldatuko eta soilik guk nahi dugun tokian izango genuke gure funtzioaren bertsioa *curryfikatua*.
 
@@ -200,6 +200,6 @@ class FizzBuzzer {
 }
 ```
 
-Honela antzeko efektu bat lortzen dugu, baina egia da kode gehiago behar izan dugula eta bestalde, klase bat sortu behar izan dugunez, zuzenean funtzioa bat deitu ordez, klase bateko metodo bat deitzen ari gara, eta gure kasu zehatzean behintzat, exekuzio honekin hitz joko aprosopa lortzea pixka bat zailagoa izan daiteke. `checkNumber.divisibleBy(3)` osatu dugu ahalik eta naturale irakur dadin, baina baldintza gehitzen diogun momentuan `if (checkNumber.divisibleBy(3))` jada ez da berdin irakurtzen. Efektu bera lortzeko `NumberDivisibilityChecker` klasearen instantziari `number` deitu beharko genioke `if (number.divisibleBy(3))` irakurri ahal izateko, baina `number` parametroarekin arazoak izango genituzke.
+Honela antzeko efektu bat lortzen dugu, baina egia da kode gehiago behar izan dugula eta bestalde, klase bat sortu behar izan dugunez, zuzenean funtzioa bat deitu ordez, klase bateko metodo bat deitzen ari garela, eta gure kasu zehatzean behintzat, exekuzio honekin hitz joko aprosopa lortzea pixka bat zailagoa izan daitekeela. `checkNumber.divisibleBy(3)` osatu dugu ahalik eta naturalen irakur dadin, baina baldintza gehitzen diogun momentuan `if (checkNumber.divisibleBy(3))` jada ez da berdin irakurtzen. Efektu bera lortzeko `NumberDivisibilityChecker` klasearen instantziari `number` deitu beharko genioke `if (number.divisibleBy(3))` irakurri ahal izateko, baina `number` ezingo genuke erabili izen bereko parametroarekin arazoak izango genituzkeelako.
 
-Dena den, bai modu batean ala bai bestean, merezi du gure kodeari semantika gehigarri hori ematen saiatzea gure kodea irakurtzen atsegina izan dadin, horrek seguruenik esan nahiko bait du aldi berean irakurtzen, eta batez ere ulertzen, erreza izango dela.
+Dena den, bai modu batean ala bai bestean egin, merezi du gure kodeari semantika gehigarri hori ematen saiatzea gure kodea irakurtzen atsegina izan dadin, horrek seguruenik esan nahiko baitu aldi berean irakurtzen, eta batez ere ulertzen, erreza izango dela.
