@@ -278,6 +278,8 @@ div.highlighter-rouge,
 figure.highlight {
   color: $base05;
   background-color: $base00;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .highlight table {
